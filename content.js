@@ -483,7 +483,7 @@ window.SITE_CONTENT = {
       tag: "CONVERSION IMPACT",
       text: "Targeted special deals through the iJoin intercept contributed to a 200% increase in Smarthome bundle sales in May.",
       result: "+200% Smarthome bundle sales",
-      image: "images/achievements/smarthome-200.jpg"
+      image: "images/achievements/smarthome-200.png"
     }
   ],
 
