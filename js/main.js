@@ -253,7 +253,7 @@
       media.append(picture(a.image, "", null));
       card.append(media, el("h3", "hit__title", text(a.title)));
       if (a.tag) card.append(el("span", "hit__pill", text(a.tag)));
-      card.append(el("p", "hit__desc", text(a.text)), el("p", "hit__result", text(a.result)));
+      card.append(el("p", `hit__desc${a.compactDescription ? " hit__desc--compact" : ""}`, text(a.text)), el("p", "hit__result", text(a.result)));
       li.append(card);
       return li;
     }));
@@ -469,6 +469,32 @@
       );
       return li;
     }));
+
+    // Reuse the original nodes so opening another profile restores its original layout.
+    const body = $(".profile__body", card);
+    const headerNodes = [$(".profile__name", card), $(".profile__role", card), $(".profile__divider", card)];
+    const overview = $(".profile__overview", card);
+    const detailsLabel = $('[data-field="detailsLabel"]', card);
+    const details = $(".profile__details", card);
+    card.classList.toggle("profile--scrollable", p.layout === "scrolling");
+    if (p.layout === "scrolling") {
+      const header = el("header", "profile__header");
+      header.append(...headerNodes);
+      const scroll = el("div", "profile__scroll");
+      scroll.tabIndex = 0;
+      scroll.setAttribute("role", "region");
+      scroll.setAttribute("aria-label", "Profile overview, specialisation and key responsibilities");
+      const specialisation = el("section", "profile__specialisation");
+      specialisation.append(el("h3", "profile__label", "SPECIALISATION"));
+      const lines = el("div", "profile__paras");
+      lines.append(...list(p.specialisation, "specialisation").map((line) => el("p", null, text(line))));
+      specialisation.append(lines);
+      scroll.append(overview, specialisation, detailsLabel, details);
+      body.replaceChildren(header, scroll);
+      scroll.scrollTop = 0;
+    } else {
+      body.replaceChildren(...headerNodes, overview, detailsLabel, details);
+    }
   }
 
   $$(".member[data-profile]").forEach((btn) => {

@@ -33,40 +33,45 @@ window.SITE_CONTENT = {
     {
       value: "2% → 8%",
       countFrom: 2,
-      title: "Channel Mix Digital",
-      text: "Growing digital contribution across the channel mix.",
+      title: "Channel Mix",
+      text: "Growing digital contribution by +6% across the channels.",
       colour: "cream"
     },
     {
-      value: "0.22% → 0.62%",
-      countFrom: 0.22,
-      title: "SLOF Conversion 2025 - 2026",
-      text: "Better journey, clearer information, stronger calls to action.",
+      value: "5,485+",
+      title: "IMPAK BIZ",
+      text: "5,495 from 2025 up to September 2026.",
       colour: "orange"
     },
     {
-      value: "28%",
-      title: "Growth Organic Traffic (YoY)",
-      text: "Strong 28% YoY growth in organic traffic from SEO-enhanced pages.",
+      value: "+28%",
+      title: "Broadband Sales Growth",
+      text: "Strong YoY growth in broadband digital subscriptions.",
       colour: "blue"
     },
     {
-      value: "313%",
-      title: "Devices Sales from Online Channel 2024 - 2026",
-      text: "Creating exclusive offers that drive online engagement.",
+      value: "+264%",
+      title: "Unifi TV Online Sales Growth",
+      text: "Significant sales growth driven by the revamped Unifi TV website purchase journey.",
       colour: "indigo"
     },
     {
-      value: "13.9%",
-      title: "Digital Broadband Sales Increase 2025 - 2026",
-      text: "Growing digital contribution across the channel mix.",
+      value: "+130%",
+      title: "Online Revenue Growth in 3 Years",
+      text: "Delivered 130% online revenue growth over three years",
       colour: "cream"
     },
     {
-      value: "264%",
-      title: "Growth Online Tv Sales (Unifi TV)",
-      text: "More customers choosing to sign up for Unifi TV online.",
+      value: "+28%",
+      title: "Organic Traffic Growth",
+      text: "Strong growth in consumer website organic traffic",
       colour: "orange"
+    },
+    {
+      value: "+235%",
+      title: "Smart Home Sales Growth",
+      text: "Expanding sales growth beyond Broadband",
+      colour: "blue"
     }
   ],
 
@@ -97,23 +102,29 @@ window.SITE_CONTENT = {
       profile: {
         fullName: "HIEW FONG FONG",
         role: "Head, New Customer Acquisition",
+        layout: "scrolling",
         overviewTitle: "PROFILE OVERVIEW",
         overview: [
-          "Hiew is a digital leader at Telekom Malaysia whose public profile emphasises growth, efficiency and customer-focused digital outcomes, with her current remit centred on new customer acquisition.",
-          "Her public credentials also show continued development across digital strategy, digital marketing, user experience and people leadership."
+          "A marketing and acquisition leader with over 10 years of experience across telecommunications, digital marketing and the entertainment industry. Specialising in digital growth strategy, customer experience and conversion optimisation, she leads initiatives that transform digital platforms into effective sales and revenue channels.",
+          "Her expertise spans end-to-end customer journeys across web, performance marketing, digital commerce and cross-functional transformation, with a strong focus on driving business growth, improving operational efficiency and delivering seamless customer experiences."
+        ],
+        specialisation: [
+          "Digital Sales & Growth Strategy",
+          "Certified Digital Marketing Specialist",
+          "Digital Acquisition, Revenue Growth & Customer Experience Optimisation"
         ],
         highlight: {
           label: "TEAM RECOGNITION",
           title: "MARKETING EXCELLENCE 2025",
           text: "Named among the Unifi and Unifi Business team congratulated after multiple Gold and Bronze wins across major 2025 campaigns."
         },
-        detailsTitle: "PUBLIC PROFILE HIGHLIGHTS",
+        detailsTitle: "KEY RESPONSIBILITIES",
         details: [
-          { title: "NEW CUSTOMER ACQUISITION", text: "Public org information lists Hiew as Head, New Customer Acquisition within Unifi Brand & Marketing." },
-          { title: "DIGITAL STRATEGY", text: "Certified Digital Marketing Specialist – Strategy and Planning, Digital Marketing Institute (2022)." },
-          { title: "DIGITAL MARKETING", text: "Certified Digital Marketing Professional, Digital Marketing Institute (2021)." },
-          { title: "UX FOUNDATIONS", text: "Completed Google’s Foundations of User Experience (UX) Design certification in 2024." },
-          { title: "LEADERSHIP DEVELOPMENT", text: "Public certifications include Human Leadership, Project Leadership, emotional intelligence and people-management courses." }
+          { title: "Digital Strategy & Business Growth", text: "Set strategic direction for digital sales and acquisition, translating business objectives into impactful initiatives that drive revenue growth and customer acquisition." },
+          { title: "Leadership & Team Development", text: "Passionate about building high-performing teams by empowering people, developing capabilities and fostering a collaborative, accountable culture that drives shared success." },
+          { title: "Digital Commerce & Performance Management", text: "Oversee digital channel performance for websites, identifying opportunities to improve traffic, conversion and revenue contribution." },
+          { title: "Customer Experience & Continuous Improvement", text: "Champion a customer-centric approach through continuous testing, journey optimisation and data-driven improvements to reduce friction and enhance conversion." },
+          { title: "Operational Excellence & Sales Transformation", text: "Transform operational processes from order processing to proactive sales conversion, improving lead management, follow-up effectiveness and acquisition efficiency." }
         ],
         educationTitle: "EDUCATION",
         education: "Degree in Arts, Mass Communication and Media Studies\n\nUniversiti Tunku Abdul Rahman (2006–2010)"
@@ -402,11 +413,12 @@ window.SITE_CONTENT = {
      ------------------------------------------------------------------- */
   achievements: [
     {
-      title: "IMPAK BIZ",
+      title: "SME Pulse Check",
       tag: "FEATURED INITIATIVE",
-      text: "End-to-end digital platform delivery spanning requirements, UI/UX, development, testing, deployment, production support and digital tracking.",
+      text: "Launched Unifi’s first SME Digital Readiness Assessment, helping SMEs evaluate their business performance across customer engagement, operations, data utilisation and strategic direction, with actionable insights across four key areas.",
+      compactDescription: true,
       result: "End-to-end platform delivery",
-      image: "images/achievements/impak-biz.jpg"
+      image: "images/achievements/sme-pulse-check.jpg"
     },
     {
       title: "TaaS PI-5 Migration",
@@ -446,14 +458,14 @@ window.SITE_CONTENT = {
     {
       title: "Operational Excellence & Growth",
       tag: "OPERATIONS",
-      text: "Strengthened productivity, customer lifecycle management, retention and fallout reduction through data-driven process improvement.",
+      text: "Transforming operations from order processing to sales conversion, shifting from reactive to proactive follow-ups to maximise lead conversion and ensure no lead goes to waste.",
       result: "Productivity + retention improvements",
       image: "images/achievements/operational-excellence.jpg"
     },
     {
-      title: "iJoin Journey Revamp",
+      title: "Continuous Journey Enhancement",
       tag: "JOURNEY OPTIMISATION",
-      text: "Product-owned journey revamp focused on stakeholder delivery timelines and reducing customer drop-off before completion.",
+      text: "Continuously testing, refining and optimising the customer journey to eliminate friction points, simplify the purchase process and improve conversion.",
       result: "Focused on reducing drop-off",
       image: "images/achievements/ijoin-journey-revamp.jpg"
     },
