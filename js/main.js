@@ -800,6 +800,7 @@
       const frame = el("span", "snap__photo");
       const img = picture(photo.image, text(photo.caption), null);
       img.loading = "eager";
+      if (photo.position) img.style.objectPosition = photo.position;
       frame.append(img);
       fig.append(
         frame,

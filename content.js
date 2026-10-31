@@ -621,6 +621,28 @@ window.SITE_CONTENT = {
         { image: "images/scrapbook/chapter-06/04.jpg", caption: "Ohana" },
         { image: "images/scrapbook/chapter-06/05.jpg", caption: "Smileee" }
       ]
+    },
+    {
+      title: "Bowl & Bond",
+      subtitle: "4 photos",
+      photos: [
+        { image: "images/scrapbook/chapter-07/01.jpg", caption: "Group Photo" },
+        { image: "images/scrapbook/chapter-07/02.jpg", caption: "Group Photo 2", position: "50% 45%" },
+        { image: "images/scrapbook/chapter-07/03.jpg", caption: "Group Winner" },
+        { image: "images/scrapbook/chapter-07/04.jpg", caption: "Bowling" },
+        { image: "images/scrapbook/chapter-07/05.jpg", caption: "MVP!!!", position: "50% 70%" }
+      ]
+    },
+    {
+      title: "Bowl & Bond",
+      subtitle: "4 photos",
+      photos: [
+        { image: "images/scrapbook/chapter-08/01.jpg", caption: "Supamala Hotpot" },
+        { image: "images/scrapbook/chapter-08/02.jpg", caption: "Ordering Food" },
+        { image: "images/scrapbook/chapter-08/03.jpg", caption: "Yumm" },
+        { image: "images/scrapbook/chapter-08/04.jpg", caption: "Delicious" },
+        { image: "images/scrapbook/chapter-08/05.jpg", caption: "Supamala Hotpot" }
+      ]
     }
   ]
 
